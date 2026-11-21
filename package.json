@@ -1,0 +1,16 @@
+{
+  "name": "gemini-ai-studio-web",
+  "version": "1.0.0",
+  "description": "Trang web AI hiện đại sử dụng Google AI Studio (Gemini Interactions API & @google/genai SDK)",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "@google/genai": "^2.29.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2"
+  }
+}
